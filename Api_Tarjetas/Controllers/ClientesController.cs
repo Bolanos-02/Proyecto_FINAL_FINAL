@@ -15,8 +15,7 @@ namespace Api_Tarjetas.Controllers
             {
                 EstructuraGlobal.ArbolClientes.Insertar(cliente);
 
-                // Crear ResumenCliente con carné basado en su DPI (usaremos solo números si es necesario)
-                int carne = int.Parse(cliente.DPI); // Asegúrate que se pueda convertir
+                int carne = int.Parse(cliente.DPI); 
                 var resumen = new ResumenCliente(carne, cliente.Nombre);
                 EstructuraGlobal.TablaResumenClientes.Insertar(carne, resumen);
 

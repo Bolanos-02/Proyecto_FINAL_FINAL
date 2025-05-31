@@ -16,7 +16,7 @@ namespace Api_Tarjetas.Controllers
             if (resumen != null)
                 return Ok(resumen.ToString());
             else
-                return NotFound("Resumen no encontrado para ese carné.");
+                return NotFound("Resumen no encontrado para ese dpi.");
         }
 
         // GET: api/resumen
