@@ -12,6 +12,7 @@ namespace biblioteca_de_clases
         public string DPI { get; set; }
         public string Nombre { get; set; }
 
+
         public Cliente(string dpi, string nombre)
         {
             DPI = dpi;

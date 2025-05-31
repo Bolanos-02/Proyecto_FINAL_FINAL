@@ -30,7 +30,7 @@ namespace biblioteca_de_clases
             return $"Cliente: {Nombre} ({Carne})\nCargos: Q{Cargos}\nAbonos: Q{Abonos}\nSaldo: Q{Abonos - Cargos}";
         }
 
-        // Métodos Comparador (clave = carne)
+        
         public bool IgualQue(object q) => Carne == ((ResumenCliente)q).Carne;
         public bool MenorQue(object q) => Carne < ((ResumenCliente)q).Carne;
         public bool MenorIgualQue(object q) => Carne <= ((ResumenCliente)q).Carne;

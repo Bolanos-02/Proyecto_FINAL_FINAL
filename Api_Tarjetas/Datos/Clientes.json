@@ -1,14 +1,29 @@
 ﻿[
     {
         "dpi": "1",
-        "nombre": "Juan Pérez"
+        "nombre": "Juan Pérez",
+        "numero": "1111",
+        "saldo": 1000,
+        "limite": 2000,
+        "pin": "1234",
+        "estado": "Activo"
     },
     {
         "dpi": "2",
-        "nombre": "Ana Gómez"
+        "nombre": "Ana Gómez",
+        "numero": "2222",
+        "saldo": 1000,
+        "limite": 2000,
+        "pin": "1234",
+        "estado": "Activo"
     },
     {
         "dpi": "3",
-        "nombre": "Carlos Díaz"
+        "nombre": "Carlos Díaz",
+        "numero": "3333",
+        "saldo": 1000,
+        "limite": 2000,
+        "pin": "1234",
+        "estado": "Activo"
     }
 ]
